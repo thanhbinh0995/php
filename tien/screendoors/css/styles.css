@@ -1,0 +1,189 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+}
+
+/* 	CLEARFIX****/
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+/**************** MAIN************/
+a: hover{
+	text-decoration: none;
+}
+.container{
+	max-width: 970px;
+}
+.container-header{
+	padding-top: 15px;
+}
+.navbar-default{
+	background-color: white;
+	border-color: white;
+}
+.navbar{
+	min-height: 90px;
+}
+#logo a img{
+	position: absolute;
+} 
+
+#sp01 {
+	font-size: 30px;
+	color: #666666;
+	margin-left: 70px;
+}
+#logo a:hover #sp01 {
+	color: black;
+}
+#sp02{
+	font-size: 30px;
+}
+#hr{
+	background-color:#719400;
+	height: 9px;
+}
+.nav01{
+	font-size: 19px;
+}
+.row01{
+	padding-top: 25px;
+}
+.col01{
+	padding-top: 5px;
+}
+.col01 #p01{
+	color:#719400;
+	font-size: 21px;
+	line-height: 32px;
+	padding-bottom: 15px;
+	padding-top: 30px;
+}
+.col01 #p02{
+	color: #3f3e3e;
+	font-size: 17px;
+	line-height: 23px;
+	padding-bottom: 26px;
+}
+.btn01{
+	background-color: #ffa500;
+	color: white;
+	border: none;
+	font-size: 23px;
+	padding: 7px 15px;
+	left: 50px;
+	bottom: 10px;
+	text-transform: uppercase;
+}
+#p03{
+	color: #719400;
+	font-size: 19px;
+    line-height: inherit;
+}
+#hr01{
+	margin-top: 15px;
+    margin-bottom: 10px;
+}
+.btn02{
+	font-size: 13px;
+	padding: 8px 70px;
+	left: 50px;
+	bottom: 10px;
+
+}
+.row02{
+	padding-top: 50px;
+}
+.row02 #p04{
+	color: #719400;
+    font-size: 13px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+#a01{
+	padding-bottom: 50px;
+}
+#p05{
+	padding-top: 20px;
+    font-size: 15px;
+    line-height: 21px;
+    padding-bottom: 30px;
+}
+.btn03{
+	padding: 18px 82px;
+    font-size: 26px;
+}
+.btnbottom{
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.menu-footer li a{
+	color: white;
+}
+.menu-footer li a:hover{
+	color: #23527c
+}
+.modal-header{
+	color:  #719400;
+}
+.btn04{
+	font-size: 15px;
+	padding: 7px 192px;
+}

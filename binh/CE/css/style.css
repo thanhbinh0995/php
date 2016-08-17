@@ -1,0 +1,568 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+}
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */
+/** IMPORT FONTS **/
+@font-face {
+    font-family: 'BebasNeue';
+    src: url('fonts/BebasNeue.eot');
+    src: url('fonts/BebasNeue.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue.woff') format('woff'),
+         url('fonts/BebasNeue.ttf') format('truetype'),
+         url('fonts/BebasNeue.svg#pBebasNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'helvetica-neue-cond';
+	src: url('fonts/helvetica-neue-cond-1361522162-webfont.eot');
+	src :url('fonts/helvetica-neue-cond-1361522162-webfont.eot?#iefix') format('embedded-opentype'), 
+		url('fonts/helvetica-neue-cond-1361522162-webfont.woff') format('woff'),
+		url('fonts/helvetica-neue-cond-1361522162-webfont.woff2') format('woff2'),
+		url('fonts/helvetica-neue-cond-1361522162-webfont.ttf') format('truetype'),
+		url('fonts/helvetica-neue-cond-1361522162-webfont.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'helveticaneueblackcondregular';
+    src: url('fonts/helvetica-neue-black-cond-1361522165-webfont.eot');
+    src: url('fonts/helvetica-neue-black-cond-1361522165-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helvetica-neue-black-cond-1361522165-webfont.woff2') format('woff2'),
+         url('fonts/helvetica-neue-black-cond-1361522165-webfont.woff') format('woff'),
+         url('fonts/helvetica-neue-black-cond-1361522165-webfont.ttf') format('truetype'),
+         url('fonts/helvetica-neue-black-cond-1361522165-webfont.svg#helveticaneuecondregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'proximanova-bold';
+	 src: url('fonts/proximanova-bold-webfont.eot');
+    src: url('fonts/proximanova-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-bold-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-bold-webfont.woff') format('woff'),
+         url('fonts/proximanova-bold-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-bold-webfont.svg#proxima_nova_rgbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'proximanova-semibold';
+    src: url('fonts/proximanova-semibold-webfont.eot');
+    src: url('fonts/proximanova-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/proximanova-semibold-webfont.woff2') format('woff2'),
+         url('fonts/proximanova-semibold-webfont.woff') format('woff'),
+         url('fonts/proximanova-semibold-webfont.ttf') format('truetype'),
+         url('fonts/proximanova-semibold-webfont.svg#proxima_novasemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'proximanova_regular';
+	src: url('fonts/proximanova-regular-webfont.eot');
+	src: url('fonts/proximanova-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/proximanova-regular-webfont.woff') format('woff'),
+		url('fonts/proximanova-regular-webfont.ttf') format('truetype'),
+		url('fonts/proximanova-regular-webfont.svg#proxima_nova_rgregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Roboto-Regular';
+	src: url('fonts/Roboto-Regular.eot');
+	src: url('fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+		url('fonts/Roboto-Regular.svg') format('svg'),
+		url('fonts/Roboto-Regular.ttf') format('truetype'),
+		url('fonts/Roboto-Regular.woff') format('woff');
+	font-style: normal;
+	font-weight: normal;
+}
+/* MAIN */
+
+/* thanh binh */
+
+#wrapper {
+	width: 100%;
+}
+#header {
+	height: 597px;
+	background: url('../images/head_bg.png') no-repeat;
+	padding-top: 11px;
+}
+.top-header {
+	width: 700px;
+	float: right;
+}
+.register {
+	margin-right: 25px;
+	float: left;
+}
+.register img, .member img {
+	float: left;
+	z-index: 10;
+	position: relative;
+}
+.text-feature {
+	width: 123px;
+	float: left;
+	color: #4c4025;
+	text-transform: uppercase;
+	padding: 17px 30px 16px 30px;
+	background: #eef0cc;
+	border: 1.5px solid #96cc3d;
+	border-radius: 0px 10px 10px 10px;
+	margin-top: 11px;
+	margin-left: -10px;
+	font-family: 'BebasNeue';
+	font-size: 24px;
+	z-index: 1;
+	line-height: 17px;
+}
+.text-feature:hover {
+	background: #f6e3b6;
+	text-decoration: none;
+}
+/* MENU */
+#menu-container {
+	position: relative;
+}
+
+#menu-container img {
+	position: absolute;
+	top: -100px;
+	left: 150px;
+}
+#main-menu {
+	margin-top: 100px;
+}
+#main-menu ul {
+	background: #362a10;
+	padding: 45px 0px 45px 507px;
+}
+#main-menu ul li {
+	display: inline-block;
+	padding-right: 40px;
+}
+#main-menu ul li:last-child {
+	padding-right: 0px;
+}
+#main-menu ul li a {
+	font-family: 'proximanova-bold';
+	color: #f5e4db;
+	text-transform: uppercase;
+	font-size: 13.5px;
+	text-decoration: none;
+}
+#main-menu a:hover {
+	color: green;
+	text-decoration: none;
+}
+.sologan {
+	width: 635px;
+	margin: 0 auto;
+	font-family: 'BebasNeue';
+	font-size: 72px;
+	background: rgba(83, 126, 30, 0.67);
+	color: #ffffff;
+	text-align: center;
+	border-radius: 5px;
+	margin-top: 115px;
+	padding: 18px 0px 11px 0px; 
+}
+
+
+#main-content {
+	/*width: 1349px;*/
+	height: 1197px;
+	background: url(../images/bg-main-content.png) no-repeat center;
+	margin: 0 auto;
+	margin-top: -4px;
+	overflow: auto;
+}
+.top-content {
+	/*width: 1349px;*/
+	margin: 0 auto;
+	height: 558px;
+}
+#static-container {
+	background: #395417 no-repeat center;
+	height: 85px;
+	margin: 0 auto;
+	margin-top: 4px;
+}
+.static-in {
+	font-family: 'proximanova-semibold';
+	color: white;
+	display: inline;
+	line-height: 10px;
+	font-size: 14.3px;
+	text-align: center;
+}
+.static-in p {
+	height: 51px;
+	padding-top: 33px;
+}
+.container-main {
+	margin: 0 auto;
+	width: 1004px;
+	margin-top: 30px;
+	height: 443px;
+}
+.container-investors {
+	margin-bottom: 40px;
+}
+.investors {
+	background: #56371a;
+	border-radius: 5px;
+	padding: 10px 20px 15px 17px;
+	margin-right: 41px;
+	display: inline-block;
+}
+.investors:hover {
+	background: #42621b;
+	color: #eef0cc;
+	text-decoration: none;
+}
+.investors:last-child {
+	margin-right: 0px;
+}
+.investors-stats {
+	font-family: 'proxima_novasemibold';
+	color: #eef0cc;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 16px;
+}
+.img1 {
+	margin-right: 8px;
+}
+.news { 
+	line-height: 46px;
+	font-family: 'BebasNeue';
+	color: #523519;
+	width: 100%;
+	font-size: 60px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 44px;
+}
+.news span {
+	color: #759200;
+}
+.after-day-container {
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.after-day-container:last-child {
+	margin-right: 0px;
+}
+.after-day {
+	height: 193px;
+	width: 145px;
+	margin: 0 auto;
+	background: #eef0cc;
+	float: left;
+	margin-top: 40px; 
+	margin-right: 24px;
+	/*margin: 41px 24px 0px 0px;*/
+	border: 1px solid #96cc3d;
+	text-transform: uppercase;
+	text-align: center;
+	border-radius: 4px;
+	padding-top: 14px;
+}
+.after-day:hover {
+	background: #f6e3b6;
+	color: #eef0cc;
+	text-decoration: none;
+}
+.after-day h3 {
+	padding-top: 12px;
+	padding-bottom: 10px;
+	margin-left: 23px;
+	margin-right: 23px;
+	font-family: 'helvetica-neue-cond';
+	color: #759200;
+	font-size: 44px;
+	line-height: 28px;
+	border-bottom: 4px solid #759200;
+}
+.after-day p {
+	padding-top: 12px;
+	font-family: 'proximanova-semibold';
+	font-size: 15px;
+	line-height: 11px;
+	color: #70573b;
+	text-transform: uppercase;
+}
+.bottom-container {
+	width: 100%;
+	height: 380px;
+	background: url(../images/bg-bottom-content.png) no-repeat center;
+}
+.in-bottom-content {
+	width: 1037px;
+	margin: 0 auto;
+}
+.about-ce1 {
+	float: left;
+	padding-left: 190px;
+	padding-top: 20px;
+	width: 445px;
+	height: 360px;
+	background: url(../images/lamp.png) transparent no-repeat 0px 15px;
+}
+.about-ce1 h3 {
+	background: url(../images/img-content-bottom.png);
+	background-repeat: no-repeat;
+	font-family: 'helvetica-neue-cond';
+	color: #5c3b1c;
+	line-height: 22px;
+	font-size: 30px;
+	padding-top: 18px;
+	padding-left: 65px;
+	padding-bottom: 16px;
+}
+.about-ce1 p {
+	font-family: 'Roboto-Regular', sans-serif;
+	margin: 0;
+	padding-top: 17px;
+	float: left;
+	line-height: 24px;
+	font-size: 16px;
+	color: #685f56;
+	text-align: justify;
+	padding-right: 26px;
+}
+.about-ce1 .divide{
+	height: 4px;
+	width: 400px;
+	background: url(../images/div.png) repeat-x ;
+}
+.affiliate {
+	width: 356px;
+	height: 378px;
+	float: left;
+	border: 1px solid #9ccf47;
+	background: #e3e6aa;
+	padding-left: 18px;
+}
+.affiliate h3 {
+	background: url(../images/img-content-bottom.png);
+	background-repeat: no-repeat;
+	font-family: 'helvetica-neue-cond';
+	color: #5c3b1c;
+	line-height: 22px;
+	font-size: 30px;
+	padding-top: 18px;
+	padding-left: 65px;
+	padding-bottom: 16px;
+	margin: 0;
+	margin-top: 26px;
+}
+.affiliate p {
+	font-family: 'Roboto-Regular', sans-serif;
+	padding-top: 17px;
+	float: left;
+	line-height: 24px;
+	font-size: 16px;
+	color: #685f56;
+	text-align: justify;
+	padding-right: 30px;
+}
+.affiliate .divide {
+	height: 4px;
+	width: 343px;
+	background: url(../images/div.png) transparent repeat-x ;
+}
+.affiliate img {
+	padding-top: 20px;
+	padding-left: 22px;
+}
+.affiliate h4 {
+	padding-top: 15px;
+	font-family: 'helveticaneueblackcondregular';
+	color: #759200;
+	font-size: 80px;
+	display: inline-block;
+	padding-left: 51px;
+	line-height: 66px;
+}
+.affiliate span {
+	font-family: 'helvetica-neue-cond';
+	font-size: 30px;
+	color: #54371a;
+	line-height: 35px;
+	display: inline-block;
+}
+.footer {
+	width: 100%;
+	margin: 0 auto;
+}
+.footer-container {
+	width: 100%;
+}
+.top-footer {
+	height: 120px;
+	margin: 0 auto;
+	width: 990px;
+	padding-left: 54px;
+}
+.top-footer-container {
+	float: left;
+}
+.top-footer img {
+	padding-right: 63px;
+	float: left;
+}
+.top-footer:last-child {
+	padding-right: 0px;
+}
+#koddos {
+	padding-top: 30px;
+	float: left;
+}
+#perfect-money {
+	padding-top: 40px;
+	float: left;
+}
+#payeer {
+	padding-top: 40px;
+	float: left;
+}
+#bitcoin {
+	padding-top: 40px;
+ 	float: left;
+ 	width: 210px;
+}
+.top-footer-container a:last-child {
+	padding-right: 0px;
+}
+.bottom-footer {
+	width: 100%;
+	background: url(../images/bg-botfooter.png) no-repeat center;
+}
+.bot-foot-container {
+	
+	width: 1005px;
+	margin: 0 auto;
+	height: 94px;
+	font-family: 'proximanova_regular';
+	position: relative;
+}
+.bot-foot-container img {
+	float: left;
+	position: absolute;
+	top: -25px;
+	left: 0px;
+}
+.address {
+	padding-top: 25px;
+	float: left;
+	padding-left: 157px;
+	color: #eef0cc;
+	font-family: 'proximanova_regular';
+	font-size: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.address a {
+	color: #eef0cc;
+	text-decoration: none;
+	line-height: 8px;
+}
+.address a:hover {
+	color: green;
+	text-decoration: none;
+}
+.address p {
+	line-height: 20px;
+}
+.footer-menu {
+	float: right;
+	padding-top: 30px;
+	display: inline;
+	text-align: center;
+	line-height: 24px;
+}
+.footer-menu ul {
+	display: inline-block;
+}
+.footer-menu ul li {
+	display: inline-block;
+	padding-right: 25px;
+}
+.footer-menu ul li:last-child {
+	padding-right: 0px;
+}
+.footer-menu ul li a {
+	font-family: 'proximanova_regular';
+	color: #eef0cc;
+	text-transform: uppercase;
+	font-size: 15px;
+	text-decoration: none;
+}
+.footer-menu a:hover {
+	color: green;
+	text-decoration: none;
+}

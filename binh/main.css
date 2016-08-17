@@ -1,0 +1,12 @@
+body {
+	background-color: white;
+	background-image: 
+		radial-gradient(hsla(0,0%,87%,0.31) 9px, transparent 10px),
+		repeating-radial-gradient(hsla(0,0%,87%,0.31) 0,
+			hsla(0,0%,87%,0.31) 4px, transparent 5px,
+			transparent 20px, hsla(0,0%,87%,0.31) 21px,
+			hsla(0,0%,87%,0.31) 25px, transparent 26px,
+			transparent 50px);
+	background-size: 30px 30px, 90px 90px;
+	background-position: 0 0 ;
+}

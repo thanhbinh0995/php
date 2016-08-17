@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Learning Laravel</title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+	<ul>
+		<li><a href="./" title="">Home</a></li>
+		<li><a href="./about" title="">About</a></li>
+		<li><a href="./contact" title="">Contact</a></li>
+	</ul>
+	@yield('content')
+</body>
+</html>

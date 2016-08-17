@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	body {
+  /*  background-color: rgba(34,34,34,0.9);
+    width: 100%;
+    }
+    .red {
+        color: red;
+        background-color: red;
+    }*/
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+    $("a").each(function(index, val) {
+        var link = $(this).attr('href');
+        console.log(link);
+    });
+</script>
+</head>
+<body>
+<a href="http://www.jquery4u.com">JQUERY4U</a>
+<a href="http://www.phpscripts4u.com">PHP4U</a>
+<a href="http://www.blogoola.com">BLOGOOLA</a>
+</body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection>
+	<book>
+		<title>PHP advanced and OOP</title>
+		<author>Larry Ullman</author>
+		<year>2013</year>
+	</book>
+	<book>
+		<title>Modern JS</title>
+		<author>Thanh Binh</author>
+		<year>2023</year>
+	</book>
+	<book>
+		<title>C++ Programing</title>
+		<author>Larry Ullman</author>
+		<year>2053</year>
+	</book>
+</collection>

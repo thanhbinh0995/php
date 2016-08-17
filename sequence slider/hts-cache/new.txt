@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+15:17:30	26/26	---M--	200	added ('OK')	text/plain	etag:%22a2054-1a-51d7e02ee5801%22	http://demo.sequencejs.com/robots.txt		(from )
+15:17:31	4036/4036	---M-Z	200	added ('OK')	text/html	etag:%22a1e18-fc4-51d7df85225be%22	http://demo.sequencejs.com/modern-slide-in/	C:/Users/PC/Documents/My%20Web%20Sites/sequence%20slider/demo.sequencejs.com/modern-slide-in/index.html	(from )
+15:17:32	27580/27580	---MC-	200	added ('OK')	text/javascript	date:Wed,%2001%20Jun%202016%2014:34:39%20GMT	http://www.google-analytics.com/analytics.js	C:/Users/PC/Documents/My%20Web%20Sites/sequence%20slider/www.google-analytics.com/analytics.js	(from http://demo.sequencejs.com/modern-slide-in/)

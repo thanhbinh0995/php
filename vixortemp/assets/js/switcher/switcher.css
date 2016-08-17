@@ -1,0 +1,57 @@
+/*
+ * Vixor - Responsive Website Template
+ * Version: 1.0.3
+ * Copyright 2016
+ * Created by: damterthemes
+ * @damterthemes: https://wrapbootstrap.com/user/damterthemes
+ */
+
+/* Switcher of styles */
+.title-section { padding-top: 7px; }
+#style-switcher h3 { color: #333333; font-size: 11px; margin: 5px 0 -3px 10px; }
+#style-switcher { background: #302E2E; width: 195px; position: fixed; top: 148px; z-index: 9999; left: 0px; border-radius: 0 0 3px 0; padding-bottom: 17px; box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5); }
+#style-switcher div { padding: 1px 5px; }
+#style-switcher h2 { background: #302E2E; color: #FFFFFF; font-weight: bold; padding: 0; font-size: 14px; padding: 10px 0 0 14px; margin-top: 0; margin-bottom: 0; }
+#style-switcher h2 a { background: url("switcher.png") no-repeat scroll left center transparent; display: block; width: 30px; height: 31px; position: absolute; right: -30px; text-indent: -9999px; top: -3px; border-radius: 0 3px 3px 0; }
+#style-switcher h3 { color: #FFFFFF; font-size: 1em; margin-top: 10px; margin-bottom: 5px; margin-bottom: 0; }
+#style-switcher .btn-success { border: none; margin-top: 1px; }
+#style-switcher .btn-default { border: none; margin-top: 1px; }
+#style-switcher .btn-group .btn + .btn, .btn-group .btn + .btn-group, .btn-group .btn-group + .btn, .btn-group .btn-group + .btn-group { margin-left: 0; }
+.switcher-btn-layout { width: 82px; }
+.table-colors { list-style: none; margin: 5px 0px 5px 0px; overflow: hidden; padding-left: 7px; }
+.table-colors li { float: left; margin: 2px; }
+.table-colors li a { display: block; width: 30px; height: 30px; cursor: pointer; }
+.layout-style select { width: 100%; padding: 5px; margin-top: 5px !important; font-size: 12px; border: none; margin: 0 0 0 -5px; color: #666666; cursor: pointer; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; }
+.layout-style ul li { margin-top: 10px !important; }
+#reset { margin: 0 0 15px 2px; }
+#reset a { color: #333333 !important; }
+#reset a { color: #FFFFFF; font-size: 12px; }
+
+/* Colors */
+.table-colors .mint { background: #37BC9B; }
+.table-colors .aqua { background: #3BAFDA; }
+.table-colors .blue { background: #006DCC; }
+.table-colors .grass { background: #8CC152; }
+.table-colors .sunflower { background: #F5B52E; }
+.table-colors .bittersweet { background: #E9573F; }
+.table-colors .grapefruit { background: #DA4453; }
+.table-colors .pink-rose { background: #D770AD; }
+.table-colors .silver { background: #919699; }
+.table-colors .dark-gray { background: #434A54; }
+
+/* Background colors */
+.table-colors .bg-mint { background: #B4E9DC; }
+.table-colors .bg-aqua { background: #B6E1F1; }
+.table-colors .bg-blue { background: #51ACFF; }
+.table-colors .bg-grass { background: #BCDB99; }
+.table-colors .bg-sunflower { background: #FADB9A; }
+.table-colors .bg-bittersweet { background: #F29B8C; }
+.table-colors .bg-grapefruit { background: #F0B3B9; }
+.table-colors .bg-pink-rose { background: #ECB9D8; }
+.table-colors .bg-light-gray { background: #E3E4E6; }
+.table-colors .bg-medium-gray { background: #768192; }
+.table-colors li a.active { box-shadow: 0 0 5px 0 #5C5C5C inset; }
+#style-switcher .btn-toolbar { margin-top: 3px; }
+@media only screen and (max-width:768px) {
+	#style-switcher { display: none; }
+}

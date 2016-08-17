@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	.red { 
+        background-color: red;
+	}
+	.green {
+		background-color: green;
+	}
+	.big {
+		background-color: green;
+		opacity: 0.4;
+		width: 300px;
+	}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // $("div").on('mouseover', function(event) {
+  // 	event.preventDefault();
+  // 	$(".big").css({
+  // 		background-color: 'red',
+  // 		width: '500px';
+  // 	});
+
+  // });
+  	$('div').mouseout(function(event) {
+  		/* Act on the event */
+  		$(".big").css({
+	  		'background-color': 'red',
+	  		'width': '500px',
+	  		'transitionDelay': 2s 
+  		});
+  	});
+
+  // $("button").on('click', function(event) {
+  // 	event.preventDefault();
+  // 	alert('hahha');
+  	
+  // });
+});
+</script>
+</head>
+<body>
+	<div class="big">
+		<h3>hello h3</h3>
+		<ul class="list-inline">
+			<li>thuy tien</li>
+			<li>kim thanh</li>
+		</ul>
+	</div>
+<button>Set</button>
+
+</body>
+</html>
+
